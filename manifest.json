@@ -1,13 +1,13 @@
 {
-"name":"Hotissue",
-"homepage_url":"https://github.com/squarerootfury/hotissue/",
+"name":"Cleanissue",
+"homepage_url":"https://github.com/squarerootfury/cleanissue/",
 "description":"Removes content-empty '+1' comments from issues on GitHub.com",
 "version":"1.0",
 "manifest_version":2,
 "content_scripts": [
     {
       "matches": ["https://github.com/*"],
-      "js": ["jquery-2.2.1.min.js","hotissue.js"]
+      "js": ["jquery-2.2.1.min.js","cleanissue.js"]
     }
   ],
   "icons": {

@@ -1,6 +1,8 @@
-## Hotissue
+## Cleanissue
 
-Hotissue removes ":+1:" comments form repository issue discussions on GitHub.com
+Cleanissue removes ":+1:" comments form repository issue discussions on GitHub.com
+
+You will get a notification in the issue title with the amount of hidden comments
 
 ![title](http://img.0fury.de/927262cdddcc8edddedac77eb1e1483a.png)
 
