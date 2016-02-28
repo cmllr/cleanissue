@@ -7,11 +7,11 @@
 "content_scripts": [
     {
       "matches": ["https://github.com/*"],
-      "js": ["jquery-2.2.1.min.js","cleanissue.js"]
+      "js": ["js/jquery-2.2.1.min.js","js/cleanissue.js"]
     }
   ],
   "icons": {
-	   "16": "icon16.png",
-	   "48": "icon48.png"
+	   "16": "img/icon16.png",
+	   "48": "img/icon48.png"
    }
 }
