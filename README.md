@@ -1,6 +1,6 @@
 ## Cleanissue
 
-Cleanissue removes ":+1:" comments from issue discussions on GitHub.com
+Cleanissue removes ":+1:" comments from issue discussions on GitHub.com. The current version can detect the plain +1 and the :+1: emoticon.
 
 You will get a notification in the issue title with the amount of hidden comments
 
