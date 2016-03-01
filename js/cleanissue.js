@@ -2,6 +2,7 @@ var hidden = [];
 function Run() {
 	if (document.title.indexOf("Issue") != -1 && document.location.hostname=="github.com") {
 		var count =$(".timeline-comment-header-text").length-1;
+		//Delete the plain text +1
 		$("p:contains(+1)").each(function(){
 			var text = $(this).html();
 			console.log(text);
@@ -10,6 +11,7 @@ function Run() {
 				hidden.push($(this));
 			}
 		});		
+		//Delete the Image-Thumb
 		$("p>img").each(function(){
 			var parent = $(this).parent();
 			var text = parent.html();
